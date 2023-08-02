@@ -165,3 +165,11 @@ img{
     font-size: 1.1rem;
     border-radius: 15px;
 }
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
