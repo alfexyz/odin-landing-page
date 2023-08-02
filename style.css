@@ -71,6 +71,7 @@ img{
     color: #F9FAF8;
     font-weight: 700;
 }
+
 .description .text{
     display: flex;
     gap: 20px;
@@ -78,3 +79,57 @@ img{
     align-items: flex-start;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.info .info-title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.info .img-subtext{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img-subtext .pair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-subtext .pair .img-containter{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote p{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .author{
+    text-align: end;
+    font-weight: 700;
+    font-size: 24px;
+}
